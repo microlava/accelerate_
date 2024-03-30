@@ -449,7 +449,7 @@ a.btn::nth-child(2):before{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    grid-gap: 2rem;
+    grid-gap: 3rem;
 }
 
 .section-services  .service-box{
@@ -459,6 +459,7 @@ a.btn::nth-child(2):before{
     background: var(--secon-bg-color);
     transition: transform .4s;
     border-radius: 10px;
+    width: 30px;
 }
 
 .service-btn{
@@ -475,7 +476,7 @@ a.btn::nth-child(2):before{
     background: var(--bg-color);
     display: flex;
     align-items: center;
-    font-size: 3rem;
+    font-size: 4rem;
     border-radius: 50%;
     position: relative;
     color: var(--hover-color);
@@ -566,7 +567,7 @@ a.btn::nth-child(2):before{
 }
 
 .skill-bar .bar .css{
-    width:  92%;
+    width: 62%;
     animation: css 5s;
 }
 
@@ -875,7 +876,7 @@ footer a i{
          width: 0%;
     }
     100%{
-        width: 62%;
+        width: 90%;
     }
 }
 
